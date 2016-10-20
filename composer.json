@@ -1,0 +1,38 @@
+{
+    "name": "yakubenko/BitKiller",
+    "description": "CakePHP Ecommerce plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "plugin", "ecommerce"],
+    "homepage": "https://github.com/yakubenko/bitkiller",
+    "authors": [
+        {
+            "name": "Stanislav Yakubenko",
+            "homepage": "https://github.com/yakubenko",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yakubenko/bitkiller/issues",
+        "source": "https://github.com/yakubenko/bitkiller"
+    },
+    "require": {
+        "cakephp/cakephp": ">=3.1.0 <4.0",
+        "cakephp/plugin-installer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitKiller\\": "src",
+            "BitKiller\\Test\\Fixture\\": "tests\\Fixture"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests",
+            "BitKiller\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "beta"
+}
